@@ -1,0 +1,1 @@
+git config user.email 'dcortes.net@gmail.com'

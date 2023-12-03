@@ -2,9 +2,14 @@
 
 Fundamentals of the Git. Repository with examples and basic exercises of branch, commands, strategies and others. This repository is part of a self-taught supplemental course to help students develop skills.
 
-## Previous requirements
+## Resources
 
-- Install Git: https://git-scm.com/
+- Git webpage: https://git-scm.com/
+- Game Ohmygit: https://ohmygit.org/
+
+## Personal blog about Git
+
+- [Fundamentos de Git](https://medium.com/@diego.coder/introducci%C3%B3n-a-git-5a7f6bd13343)
 
 ## Team
 
