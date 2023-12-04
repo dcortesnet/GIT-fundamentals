@@ -11,6 +11,12 @@ Fundamentals of the Git. Repository with examples and basic exercises of branch,
 
 - [Fundamentos de Git](https://medium.com/@diego.coder/introducci%C3%B3n-a-git-5a7f6bd13343)
 
+## VSCODE extensions
+
+- Git Gitlens: https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens
+- Git Graph: https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph
+- Git History: https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory
+
 ## Team
 
 Developed by Diego Cortés
