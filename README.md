@@ -5,7 +5,8 @@ Fundamentals of the Git. Repository with examples and basic exercises of branch,
 ## Resources
 
 - Git webpage: https://git-scm.com/
-- Game Ohmygit: https://ohmygit.org/
+- Game practice Git Ohmygit: https://ohmygit.org/
+- Visualizing Git playground: https://git-school.github.io/visualizing-git/
 
 ## Personal blog about Git
 
