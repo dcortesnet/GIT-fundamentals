@@ -21,7 +21,7 @@ git init
 Se utiliza para configurar y gestionar las opciones de configuración del sistema, del usuario y del proyecto. Permite establecer información como el nombre de usuario, la dirección de correo electrónico, el editor preferido, y muchas otras configuraciones que afectan el comportamiento de Git.
 
 ```bash
-git config user.name "[tu_username]"
-git config user.email "[tu_correo]"
-git config --list # List config
+git config --list # Listado de configuraciones
+git config user.name "[tu_username]" # Configuración del nombre de usuario
+git config user.email "[tu_correo]" # Configuración del email
 ```

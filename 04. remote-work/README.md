@@ -4,10 +4,12 @@
 
 Se utiliza para conectarnos con un servidor Git remoto. Su función específica depende de las opciones que se utilicen con él.
 
-- `git remote add [nombre_origen] [url_origen]`: Este comando se utiliza para conectar y agregar un nuevo repositorio remoto a nuestro entorno de trabajo.
-- `git remote set-url [nombre_origen] [nueva_url_origen]`: Se utiliza para cambiar la URL asociada con un repositorio remoto existente.
-- `git remote remove [nombre_origen]`: Elimina la conexión a un repositorio remoto.
-- `git remote -v`: Este comando muestra las URLs de los repositorios remotos configurados actualmente en tu proyecto.
+```bash
+git remote add [nombre_origen] [url_origen] # Este comando se utiliza para conectar y agregar un nuevo repositorio remoto a nuestro entorno de trabajo.
+git remote set-url [nombre_origen] [nueva_url_origen] #  Se utiliza para cambiar la URL asociada con un repositorio remoto existente.
+git remote remove [nombre_origen] # Elimina la conexión a un repositorio remoto.
+git remote -v #  Este comando muestra las URLs de los repositorios remotos configurados actualmente en tu proyecto.
+```
 
 ### 2. `git fetch`
 
