@@ -1,6 +1,14 @@
 # Comandos para trabajar con el repositorio remoto
 
-### 1. `git remote`
+### 1. `git clone`
+
+Se utiliza para clonar un repositorio existente. Este comando copia un repositorio Git completo, incluidos todos los archivos, historial y configuraciones, desde un repositorio remoto a tu máquina local.
+
+```bash
+git clone [url_repositorio]
+```
+
+### 2. `git remote`
 
 Se utiliza para conectarnos con un servidor Git remoto. Su función específica depende de las opciones que se utilicen con él.
 
@@ -11,7 +19,7 @@ git remote remove [nombre_origen] # Elimina la conexión a un repositorio remoto
 git remote -v #  Este comando muestra las URLs de los repositorios remotos configurados actualmente en tu proyecto.
 ```
 
-### 2. `git fetch`
+### 3. `git fetch`
 
 Se utiliza para recuperar cambios desde un repositorio remoto sin fusionar esos cambios en tu rama actual. Básicamente, actualiza tu repositorio local con la información más reciente del repositorio remoto, pero no realiza cambios en tu trabajo actual
 
