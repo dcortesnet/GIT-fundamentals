@@ -5,7 +5,7 @@
 Se utiliza para clonar un repositorio existente. Este comando copia un repositorio Git completo, incluidos todos los archivos, historial y configuraciones, desde un repositorio remoto a tu máquina local.
 
 ```bash
-git clone [url_repositorio]
+git clone [url_repositorio].git
 ```
 
 ### 2. `git remote`
@@ -13,10 +13,10 @@ git clone [url_repositorio]
 Se utiliza para conectarnos con un servidor Git remoto. Su función específica depende de las opciones que se utilicen con él.
 
 ```bash
-git remote add [nombre_origen] [url_origen] # Este comando se utiliza para conectar y agregar un nuevo repositorio remoto a nuestro entorno de trabajo.
-git remote set-url [nombre_origen] [nueva_url_origen] #  Se utiliza para cambiar la URL asociada con un repositorio remoto existente.
-git remote remove [nombre_origen] # Elimina la conexión a un repositorio remoto.
-git remote -v #  Este comando muestra las URLs de los repositorios remotos configurados actualmente en tu proyecto.
+$ git remote add [nombre_origen] [url_origen] # Este comando se utiliza para conectar y agregar un nuevo repositorio remoto a nuestro entorno de trabajo.
+$ git remote set-url [nombre_origen] [nueva_url_origen] #  Se utiliza para cambiar la URL asociada con un repositorio remoto existente.
+$ git remote remove [nombre_origen] # Elimina la conexión a un repositorio remoto.
+$ git remote -v #  Este comando muestra las URLs de los repositorios remotos configurados actualmente en tu proyecto.
 ```
 
 ### 3. `git fetch`
@@ -24,7 +24,7 @@ git remote -v #  Este comando muestra las URLs de los repositorios remotos confi
 Se utiliza para recuperar cambios desde un repositorio remoto sin fusionar esos cambios en tu rama actual. Básicamente, actualiza tu repositorio local con la información más reciente del repositorio remoto, pero no realiza cambios en tu trabajo actual
 
 ```bash
-git fetch [nombre_origen]
+$ git fetch [nombre_origen]
 ```
 
 ### 3. `git pull`
