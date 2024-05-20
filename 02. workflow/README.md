@@ -11,7 +11,7 @@ $ git add . # Agrega todos los archivos del directorio actual
 
 ### 2. `git commit`
 
-Se utiliza para confirmar los cambios realizados en el área de preparación (staging area) y genera una nueva instantánea agregandola en el historial del repositorio. Cada commit tiene un identificador único (hash) y un mensaje descriptivo que proporciona información sobre los cambios realizados.
+Se utiliza para confirmar los cambios realizados en el área de preparación (staging area) y genera una nueva instantánea (snapshot) del archivo agregándolo en el historial del repositorio. Cada commit tiene un identificador único (hash) y un mensaje descriptivo que proporciona información sobre los cambios realizados.
 
 ```bash
 $ git commit -m "[Mensaje descriptivo del commit]"

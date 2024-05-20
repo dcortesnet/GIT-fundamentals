@@ -5,12 +5,12 @@
 Se utiliza para clonar un repositorio existente. Este comando copia un repositorio Git completo, incluidos todos los archivos, historial y configuraciones, desde un repositorio remoto a tu máquina local.
 
 ```bash
-git clone [url_repositorio].git
+$ git clone [url_repositorio].git
 ```
 
 ### 2. `git remote`
 
-Se utiliza para conectarnos con un servidor Git remoto. Su función específica depende de las opciones que se utilicen con él.
+Se utiliza para conectarnos con un servidor Git remoto. Una vez conectado con el repositorio, podemos enviar cambios y actualizaciones a él. También su función específica depende de las opciones que se utilicen con él.
 
 ```bash
 $ git remote add [nombre_origen] [url_origen] # Este comando se utiliza para conectar y agregar un nuevo repositorio remoto a nuestro entorno de trabajo.
@@ -21,7 +21,7 @@ $ git remote -v #  Este comando muestra las URLs de los repositorios remotos con
 
 ### 3. `git fetch`
 
-Se utiliza para recuperar cambios desde un repositorio remoto sin fusionar esos cambios en tu rama actual. Básicamente, actualiza tu repositorio local con la información más reciente del repositorio remoto, pero no realiza cambios en tu trabajo actual
+Se utiliza para recuperar cambios desde un repositorio remoto sin fusionar esos cambios en tu rama actual. Básicamente, actualiza tu repositorio local con la información más reciente del repositorio remoto, pero no realiza cambios en tu trabajo actual.
 
 ```bash
 $ git fetch [nombre_origen]
@@ -29,10 +29,10 @@ $ git fetch [nombre_origen]
 
 ### 3. `git pull`
 
-Es un comando en Git que combina dos operaciones, realiza un "git fetch" para obtener los cambios del repositorio remoto y luego realiza un "git merge" para fusionar esos cambios en la rama actual.
+Es un comando en Git que combina dos operaciones, realiza un "git fetch" para obtener los cambios del repositorio remoto y luego realiza un "git merge" para fusionar esos cambios en la rama actual en local.
 
 ```bash
-git pull [nombre_origen] [nombre_rama_remota]
+$ git pull [nombre_origen] [nombre_rama_remota]
 ```
 
 ### 4. `git push`
@@ -40,5 +40,5 @@ git pull [nombre_origen] [nombre_rama_remota]
 Es un comando en Git que se utiliza para enviar los cambios confirmados en tu rama local a un repositorio remoto.
 
 ```bash
-git push [nombre_origen] [nombre_rama_local]
+$ git push [nombre_origen] [nombre_rama_local]
 ```

@@ -10,7 +10,7 @@ $ git init
 
 ### 2. `git config`
 
-Se utiliza para configurar y gestionar las opciones de configuración del sistema, del usuario y del proyecto. Permite establecer información como el nombre de usuario, la dirección de correo electrónico, el editor preferido, y muchas otras configuraciones que afectan el comportamiento de Git.
+Se utiliza para configurar y gestionar las opciones de configuración del sistema, del usuario y del proyecto Git. Permite establecer información como el nombre de usuario, la dirección de correo electrónico, el editor preferido, y muchas otras configuraciones que afectan el comportamiento de Git.
 
 ```bash
 $ git config --list # Listado de configuraciones
