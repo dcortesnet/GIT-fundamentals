@@ -12,10 +12,11 @@ $ git branch -d [nombre_de_la_rama] # Este comando elimina una rama.
 
 ### 2. `git checkout`
 
-Se utiliza para cambiar entre ramas. Este comando cambia de rama de trabajo.
+El comando git checkout tiene múltiples usos, entre los cuales destacan el cambio de ramas de trabajo y el cambio a commits específicos.
 
 ```bash
-$ git checkout [nombre_de_la_rama]
+$ git checkout [nombre_de_la_rama] # Cambiarnos de rama
+$ git checkout [commit_hash] # Cambiarnos de commit
 ```
 
 ### 3. `git merge`
